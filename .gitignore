@@ -1,0 +1,43 @@
+# Operating System files
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+
+# Linux / Ubuntu
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+.DS_Store
+
+# IDEs and Code Editors (VS Code, PHPStorm, NetBeans, etc.)
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.nbproject/
+
+# Environment / Sensitive Configs
+.env
+.env.local
+config.local.php
+
+# Server & Application Logs
+*.log
+error_log
+
+# Uploads & Temporary Files
+/uploads/
+*.tmp
+*.bak
