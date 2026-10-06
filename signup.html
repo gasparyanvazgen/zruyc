@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="styles/main.css">
+
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <a href="#">
+                <i class="fas fa-comments"></i>
+                <span>Զրույց</span>
+            </a>
+        </div>
+
+        <div class="nav-links">
+            <ul>
+                <li><a href="#">Գլխավոր</a></li>
+                <li><a href="#">Քննարկում</a></li>
+                <li><a href="#">Մուտք</a></li>
+                <li><a href="#">Գրանցվել</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <main>
+        <section class="signup-section">
+            <h1>Ստեղծել հաշիվ</h1>
+            <p class="form-text">Միացեք քննարկումներին, ստացեք հուզող հարցերի պատասխանները համայնքից։</p>
+
+            <form action="#" method="POST" class="signup-form">
+                <div class="form-group">
+                    <label for="username">Օգտանուն</label>
+                    <input type="text" id="username" name="username" placeholder="vigen_harutyunyan" required>
+                    <span class="form-text">Միայն տառեր, թվեր և ընդգծման նշան (_): 3-50 նիշ:</span>
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Գաղտնաբառ</label>
+                    <input type="password" id="password" name="password" placeholder="********" required>
+                    <span class="form-text">Առնվազն 6 նիշ:</span>
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Կրկնել գաղտնաբառը</label>
+                    <input type="password" id="password" name="password" placeholder="********" required>
+                </div>
+
+                <input type="submit" class="submit-btn" value="Գրանցվել">
+            </form>
+
+            <p>Արդեն ունե՞ք հաշիվ: <a href="#">Մուտք գործել</a></p> 
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2026 Զրույց քննարկումների հարթակ։ Բոլոր իրավունքները պաշտպանված են։</p>
+
+            <p>Պատրաստվել է սիրով <i class="fas fa-heart"></i> <a href="https://gasparyanvazgen.github.io" target="_blank" rel="noopener noreferrer">Վազգեն Գասպարյանի</a> կողմից</p>
+        </div>
+    </footer>
+</body>
+</html>
